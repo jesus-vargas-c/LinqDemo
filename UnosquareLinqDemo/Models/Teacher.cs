@@ -5,6 +5,9 @@ using System.Web;
 
 namespace UnosquareLinqDemo.Models
 {
+    /// <summary>
+    /// Class teacher
+    /// </summary>
     public class Teacher
     {
         public string First { get; set; }
@@ -15,11 +18,9 @@ namespace UnosquareLinqDemo.Models
         public List<Teacher> teachers { get; set; }
         public Teacher()
         {
-
-      
-
+                  
         }
-
+        //function to get the teachers
         public List<Teacher> GetTeachers()
         {
             // Create the second data source.

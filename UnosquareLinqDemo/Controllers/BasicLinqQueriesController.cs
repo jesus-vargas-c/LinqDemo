@@ -9,6 +9,7 @@ using UnosquareLinqDemo.Models;
 
 namespace UnosquareLinqDemo.Controllers
 {
+    //Principal controller
     public class BasicLinqQueriesController : Controller
     {
 
